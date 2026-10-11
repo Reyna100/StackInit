@@ -1,0 +1,37 @@
+{
+  "name": "stackinit",
+  "version": "1.0.0",
+  "description": "CLI tool for scaffolding a full-stack JavaScript application (React + Vite frontend, Express/NestJS/Fastify backend, MySQL/PostgreSQL/SQLite, Prisma/Sequelize/Drizzle)",
+  "type": "module",
+  "bin": {
+    "stackinit": "./bin/cli.js",
+    "create-fullstack-app": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node ./bin/cli.js",
+    "dev": "node ./src/index.js"
+  },
+  "keywords": [
+    "cli",
+    "scaffold",
+    "fullstack",
+    "react",
+    "vite",
+    "express",
+    "nestjs",
+    "fastify",
+    "prisma",
+    "sequelize",
+    "drizzle"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.12",
+    "chalk": "^5.3.0",
+    "ora": "^7.0.1",
+    "fs-extra": "^11.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
